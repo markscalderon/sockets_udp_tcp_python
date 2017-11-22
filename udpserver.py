@@ -16,6 +16,5 @@ while True:
         pass
     except  (KeyboardInterrupt , SystemExit):
         raise
-    finally:
-        sock.close()
-        pass
+
+sock.close()
